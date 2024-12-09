@@ -1,0 +1,34 @@
+body {
+    font-family: 'NanumSquare', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+.gabriela-regular {
+    font-family: "Gabriela", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+header {
+  background-image: url(images/headerbg.jpg);
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+ }
+
+ 
+.nav-link:hover,
+.nav-link.active {
+    color: #F3A2A1 !important
+  }
+ 
+
+  #Spring-warm {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.225), rgba(244, 255, 95, 0.2)), url(images/springbg.png);
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+  }
+
+
