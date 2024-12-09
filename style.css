@@ -11,7 +11,7 @@ h4,
     font-style: normal;
   }
 header {
-  background-image: url(images/headerbg.jpg);
+  background-image: url(headerbg.jpg);
   background-size: cover;
   background-position: center top;
   background-attachment: fixed;
@@ -25,7 +25,7 @@ header {
  
 
   #Spring-warm {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.225), rgba(244, 255, 95, 0.2)), url(images/springbg.png);
+      background-image: linear-gradient(rgba(0, 0, 0, 0.225), rgba(244, 255, 95, 0.2)), url(springbg.png);
       background-size: cover;
       background-position: center;
       background-attachment: fixed;
