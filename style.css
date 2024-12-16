@@ -11,10 +11,10 @@ h4,
     font-style: normal;
   }
 header {
-  background-image: url(headerbg.jpg);
+  background-image:  url(headerbg.jpg);
   background-size: cover;
   background-position: center top;
-  background-attachment: fixed;
+  
  }
 
  
@@ -25,10 +25,77 @@ header {
  
 
   #Spring-warm {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.225), rgba(244, 255, 95, 0.2)), url(springbg.png);
+      background-image: linear-gradient(rgba(0, 0, 0, 0.225), #FFF1D4), url(springbg.png);
       background-size: cover;
       background-position: center;
       background-attachment: fixed;
+      .card {
+        margin: 20px;
+        
+       
+      }
   }
 
+  #Summer-cool{
+    background-image: linear-gradient(rgba(0,0,0,0.225), #A5E0DF), url(images/summerbg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  #Autumn-warm{
+    background-image: linear-gradient(rgba(0,0,0,0.225), #F39E75), url(images/autumnbg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+    #Winter-cool{
+      background-image: linear-gradient(rgba(0,0,0,0.225), #C1C4E2), url(images/winterbg.jpg);
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+  
 
+    #makeuplook{
+      background-image:url(images/makeuplookbg.jpg) ;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+     
+      .container {
+        width: 300px;
+        height: 400px;
+        position: relative;
+       
+}
+
+img {
+        width: inherit;
+        height: inherit;
+        object-fit: cover;
+       
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: inherit;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+.container:hover .overlay {
+  opacity: 1;
+}
+      }
+
+      #sns{
+        background-image: linear-gradient(rgba(233, 227, 227, 0.578), #d5cbcb8e),url(images/snsbg.jpg);
+        background-size: cover; 
+        background-position: center;
+        background-attachment: fixed;
+  }
